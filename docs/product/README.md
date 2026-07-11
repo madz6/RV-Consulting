@@ -1,7 +1,7 @@
 # Product documentation index
 
 **Product:** Pricing Strategy Workbench (working title)  
-**Status:** Discovery / specification  
+**Status:** Documentation complete — pre-validation, not yet implemented  
 **Last updated:** 2026-07-11  
 **Audience:** Product, design, engineering, pricing specialists, reviewers and Codex agents
 
@@ -10,6 +10,8 @@
 Pricing Strategy Workbench is a vendor-neutral engagement and decision layer for non-routine pricing strategy work. It connects research questions, retrieved evidence, human interpretation, strategy alternatives, reproducible models with deterministic financial arithmetic, review decisions and circulatable client assets.
 
 It is explicitly **not** a live-price optimiser, CPQ system, generic research chatbot or autonomous consultant.
+
+The v0 engagement archetype is **new-offer monetisation under sparse historical data**. Scope is separated into a synthetic hackathon demonstrator, a securely operated concierge design-partner pilot and a native product pilot.
 
 ## Canonical documents
 
