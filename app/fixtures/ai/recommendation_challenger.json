@@ -1,0 +1,10 @@
+{
+  "strongestCounterCase": "The recommendation rests on one customer voice per segment and zero willingness-to-pay research. The flat site subscription could be mispriced in both directions: too high for mid-market plants that benchmark against 'one bad breakdown a year' with an unmeasured £600/hour estimate behind it [EV-09, EV-21], and too low for enterprise fleets whose measured downtime value is ~£13,500 per machine per year at planning assumptions [EV-08, EV-05]. Meanwhile the pilot's 35% downtime reduction came from three hand-picked sites [EV-04, EV-07]; if commercial-scale performance lands near the low end, the value story that justifies the fee weakens exactly when references are forming. The safest counter-position is a slower, evidence-first launch: pilot pricing at a handful of sites per segment, run structured willingness-to-pay research, and only then fix board-level price points — accepting one quarter of delay against the cash constraint [EV-10].",
+  "conditionsThatWouldReverse": [
+    "Willingness-to-pay research showing mid-market tolerance materially below the proposed site fee",
+    "Commercial-scale downtime reduction falling below ~15%, breaking the value narrative that supports the fee level",
+    "Year-one adoption falling below the switching value needed to satisfy the 18-month contribution constraint",
+    "Service-capacity hiring failing to keep pace, degrading alert response at reference sites"
+  ],
+  "evidenceCodes": ["EV-04", "EV-05", "EV-07", "EV-08", "EV-09", "EV-10", "EV-16", "EV-21"]
+}

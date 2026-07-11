@@ -1,0 +1,8 @@
+item,value,unit,notes
+platform_fixed_cost,380000,GBP_per_year,"PulseGuard cloud platform and analytics team at current scale"
+variable_cost_per_machine,6,GBP_per_machine_month,"Connectivity + cloud per connected machine"
+onboarding_cost_per_machine,900,GBP_per_machine,"Sensor kit + installation, one-off"
+service_engineer_cost,58000,GBP_per_year,"One engineer required per 200 connected machines, fully loaded"
+finance_cash_constraint,18,months,"Contribution must turn positive within 18 months of launch (CFO memo)"
+avg_equipment_price,38000,GBP,"Average NordMach machine sale price, used for bundle-uplift modelling"
+annual_new_machine_sales,140,units_per_year,"New machines sold per year across both segments (~40 enterprise, ~100 mid-market). SYNTHETIC CASE DATA"

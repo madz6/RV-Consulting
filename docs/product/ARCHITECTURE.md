@@ -435,13 +435,22 @@ The demonstrator must not be presented as production-safe.
 
 ## 13. Key technical decisions still open
 
-- Web stack and deployment environment
-- Relational database and vector-search implementation
-- Model provider and data-processing configuration
+### Resolved for the D0 demonstrator (2026-07-11; pilot decisions remain open)
+
+- **Web stack:** Next.js (App Router) + TypeScript, run locally; UI with Tailwind and shadcn/ui (`app/`)
+- **Database:** SQLite via Drizzle ORM for the canonical case store; no vector search in D0
+- **Model provider:** OpenAI API behind a thin provider adapter, with a deterministic fixture fallback (`AI_MODE=fixture`) for offline/demo/test runs
+- **Model runtime:** pure TypeScript deterministic engine, unit-tested, versioned, input-hashed
+- **Artifact generation:** HTML/print-PDF pack plus real exports — exceljs (.xlsx with live formulas), docx (.docx memo), pptxgenjs (.pptx deck)
+- **Audit:** append-only `audit_events` table (minimal local structured log per the D0 column of §12)
+
+### Still open for the native product pilot
+
+- Deployment environment and hosting
+- Production relational database and vector-search implementation
+- Model provider data-processing configuration and terms
 - Document parsing stack and supported formats
 - Public-search provider and source-capture approach
-- Spreadsheet/model runtime
-- DOCX/PPTX/XLSX/PDF generation approach
 - Real-time versus asynchronous research jobs
 - Approval-signature requirements
 - Immutable audit implementation

@@ -1,0 +1,3 @@
+segment,accounts,avg_machines_per_account,total_machines,avg_downtime_cost_per_hour_gbp,baseline_unplanned_downtime_hours_per_machine_year,notes
+Enterprise multi-site,12,35,420,1800,30,"Downtime cost from 3 pilot accounts' own measurements; others unverified"
+Mid-market single-site,110,8,880,600,30,"Downtime cost is a sales-team estimate; no direct measurement. SYNTHETIC CASE DATA"

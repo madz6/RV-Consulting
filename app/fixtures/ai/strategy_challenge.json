@@ -1,0 +1,35 @@
+{
+  "strategyTitle": "Segmented site subscription",
+  "perspectives": [
+    {
+      "perspective": "customer",
+      "challenge": "A flat site fee ignores fleet-size differences inside each segment: a 60-machine enterprise site and a 20-machine one pay the same, which the larger site will exploit and the smaller will resent. The enterprise customer asked for site-level pricing, but that was in the context of not paying for idle machines — not a promise that one price fits all sites. Consider size bands within the site fee.",
+      "evidenceCodes": ["EV-19", "EV-18"]
+    },
+    {
+      "perspective": "competitor",
+      "challenge": "SentinelIQ's public £49/machine/month anchor lets its reps unbundle your site fee: at a 35-machine average enterprise site, your proposed site fee implies a per-machine figure they will compare against their list price minus volume discounts. Prepare a value defence — OEM field response and downtime results — or the comparison happens without you framing it.",
+      "evidenceCodes": ["EV-22", "EV-04"]
+    },
+    {
+      "perspective": "finance",
+      "challenge": "The 18-month contribution constraint is binding, and onboarding cost is front-loaded at £900/machine. If adoption lands at the high end early, year-one contribution gets worse, not better — the model must show the switching value of adoption against the 18-month test, and Finance should see the phased-onboarding plan before approving.",
+      "evidenceCodes": ["EV-10", "EV-06", "EV-16"]
+    },
+    {
+      "perspective": "implementation",
+      "challenge": "Service capacity of one engineer per ~200 connected machines caps credible year-one adoption regardless of demand. If the subscription sells faster than hiring, alert response degrades exactly when reference customers are forming first impressions.",
+      "evidenceCodes": ["EV-16"]
+    },
+    {
+      "perspective": "regulatory",
+      "challenge": "A quarantined document containing SentinelIQ's non-public discount floors exists inside the client. Ensure no price level in this strategy is justified by, or numerically anchored to, that material — the price architecture must be defensible from public and client-owned evidence alone, and the quarantine must be noted in the decision log.",
+      "evidenceCodes": ["EV-22"]
+    }
+  ],
+  "missingTests": [
+    "Willingness-to-pay validation of the proposed site-fee levels in both segments before board approval",
+    "A second mid-market customer interview to corroborate flat-fee preference beyond a single account",
+    "Sensitivity of the recommendation to mid-market adoption falling to the stale 2018 benchmark of ~8%"
+  ]
+}

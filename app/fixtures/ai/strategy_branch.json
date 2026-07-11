@@ -1,0 +1,39 @@
+{
+  "title": "Enterprise outcome-linked amendment (branch)",
+  "thesis": "Keep the flat site subscription as the universal base, but add an optional, bounded outcome-linked amendment for enterprise accounts only: a reduced base fee plus a capped share of jointly measured avoided-downtime value. Enterprise customers who measure downtime and accept availability KPIs self-select into sharing measured value; mid-market keeps the flat, predictable fee it asked for.",
+  "design": {
+    "targetSegments": ["enterprise (opt-in amendment)", "midmarket (unchanged flat subscription)"],
+    "offerAndPackage": "PulseGuard site agreement; enterprise opt-in outcome amendment with joint measurement protocol",
+    "priceMetric": "Site subscription base; verified avoided-downtime value share on amended enterprise sites",
+    "pricingModel": "Reduced base subscription plus capped outcome fee (enterprise opt-in only)",
+    "priceArchitecture": "Hard per-machine annual cap, fee floor, annual reconciliation against jointly owned measurement",
+    "termsAndFences": "Amendment available only where a measurement protocol is agreed; minimum 12-month term; cap and floor stated in the contract",
+    "migration": "Launch flat subscription everywhere; offer the amendment to pilot accounts first at renewal",
+    "governance": "Pricing committee approval required for any deviation from cap/floor; measurement disputes escalate to joint review",
+    "pilot": "Offer the amendment to the three pilot accounts for two quarters before wider enterprise rollout"
+  },
+  "causalChain": "Enterprise sites already measure downtime cost [EV-08] and accept availability KPIs [EV-18] → an outcome share with cap, floor and joint measurement matches both customer and Finance requirements [EV-18, EV-14] → value-linked pricing captures more of the measured value on critical fleets than a flat fee, without exposing NordMach to open-ended revenue volatility → mid-market is untouched, respecting its explicit rejection of performance-linked billing [EV-20, EV-21].",
+  "requiredConditions": "Joint downtime-measurement protocol agreed per amended site [EV-17]; Finance-approved cap and floor [EV-14]; service capacity phased at one engineer per ~200 connected machines [EV-16].",
+  "failureModes": "Measurement disputes sour flagship relationships; outcome fee under-recovers if downtime reduction lands below pilot levels at ordinary sites [EV-07]; administrative cost of per-site protocols erodes the incremental margin [EV-17].",
+  "smallestTest": "Two pilot accounts sign the amendment at renewal with a two-quarter reconciliation; success = both renew the amendment and measured fee lands between floor and cap without dispute.",
+  "evidenceUsed": [
+    { "claimCode": "EV-18", "how": "Enterprise customer explicitly accepts capped, floored, jointly measured outcome fees" },
+    { "claimCode": "EV-08", "how": "Enterprise downtime cost is measured, making an outcome metric contractible" },
+    { "claimCode": "EV-14", "how": "Finance requires cap, floor and measurement protocol — built into the architecture" },
+    { "claimCode": "EV-21", "how": "Mid-market keeps the flat plant-level fee it asked for" }
+  ],
+  "contraryEvidence": [
+    { "claimCode": "EV-20", "why": "Mid-market rejects performance-linked billing — the amendment must never be pushed down-segment" },
+    { "claimCode": "EV-07", "why": "Pilot downtime reduction may not generalise; outcome fee revenue could disappoint at ordinary sites" },
+    { "claimCode": "EV-17", "why": "Every amended site requires a measurement project, adding cost and delay" }
+  ],
+  "assumptionsIntroduced": [
+    "Share of enterprise accounts opting into the amendment within year 1 (no direct evidence; requires a bounded expert assumption)",
+    "Outcome share percentage that clears the value story without breaching the cap (to be tested in the pilot)"
+  ],
+  "evidenceGaps": [
+    "No willingness-to-pay research on the outcome share level in either segment",
+    "No evidence on measurement-protocol cost per site",
+    "Only one enterprise voice supports outcome acceptance — a second account should be interviewed before rollout"
+  ]
+}

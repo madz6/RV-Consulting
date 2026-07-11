@@ -2,9 +2,9 @@
 
 GiveAGo project #1 — **Pricing Strategy Workbench**
 
-This repository contains the complete product-definition package for a human-led, evidence-grounded pricing strategy system (~23,000 words across nine canonical documents). No product implementation has been started yet.
+This repository contains the complete product-definition package for a human-led, evidence-grounded pricing strategy system (~23,000 words across nine canonical documents), plus the implemented **D0 hackathon demonstrator** in [`app/`](app/).
 
-**Start here:** [`docs/product/README.md`](docs/product/README.md) — the product documentation index.
+**Start here:** [`docs/product/README.md`](docs/product/README.md) — the product documentation index. To run the demonstrator, see [`app/README.md`](app/README.md).
 
 ## Central product decision
 
@@ -39,6 +39,7 @@ Requirements draw from current CMA algorithmic-pricing guidance, NIST's Generati
 ## Current status
 
 - Product documentation: complete and internally reviewed
-- Hackathon demonstrator: specified, not implemented
+- Hackathon demonstrator: **implemented** ([`app/`](app/)) — full D0 loop on the synthetic NordMach/PulseGuard case, with automated tests covering the MVP quality gates
+- Concierge pilot and native product pilot: not started
 - Product-market fit: hypothesis, not validated
 - Working title: subject to change

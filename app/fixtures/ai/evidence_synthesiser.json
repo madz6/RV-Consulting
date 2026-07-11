@@ -1,0 +1,44 @@
+{
+  "syntheses": [
+    {
+      "researchQuestionCode": "RQ-01",
+      "supportingSummary": "PulseGuard demonstrably reduces unplanned downtime: the 18-month pilot across 86 machines cut unplanned downtime ~35% against prior-year baselines [EV-04], from a baseline of ~30 hours per machine per year [EV-05]. In the enterprise segment that downtime is worth ~£1,800/hour, measured by the pilot accounts themselves [EV-08], implying avoided-downtime value in the low five figures per machine per year at pilot performance.",
+      "contrarySummary": "Engineering itself warns the pilot sites were hand-picked and well maintained; results at poorly maintained plants are unproven and mid-market sites were never piloted [EV-07]. The mid-market downtime cost of ~£600/hour is a sales estimate with no measurement behind it [EV-09], and the mid-market customer interviewed confirms plants in that segment do not measure downtime cost at all [EV-20 context]. The CEO's claim that customers would pay up to 20% of avoided downtime cost is an unsupported management assertion, not willingness-to-pay evidence [EV-01].",
+      "limitations": "Value evidence is concentrated in three favourable enterprise pilot accounts; nothing measured in mid-market. Willingness-to-pay has not been researched in either segment.",
+      "gaps": "No mid-market value measurement; no willingness-to-pay research; no evidence on badly maintained sites where the alert model may underperform.",
+      "claimCodesUsed": ["EV-01", "EV-04", "EV-05", "EV-07", "EV-08", "EV-09"]
+    },
+    {
+      "researchQuestionCode": "RQ-02",
+      "supportingSummary": "The two segments buy differently. The enterprise customer measures downtime, already accepts availability KPIs in service contracts, and would accept a capped, floored, jointly measured outcome-linked fee [EV-18]; it prefers site-level agreements and resists per-machine fees on idle backup machines [EV-19]. The mid-market customer wants a fixed, predictable plant-level monthly fee benchmarked against the cost of one bad breakdown a year [EV-21]. Sales need a simple, explainable structure [EV-13]; per-machine billing is administratively easy today while outcome billing requires a per-site measurement project [EV-17].",
+      "contrarySummary": "The Sales Director asserts that all customers will accept outcome pricing and reports no objections [EV-11]. This is directly contradicted by the mid-market customer, who rejects performance-linked billing outright and will not accept a vendor-measured fee formula [EV-20]. The contradiction is unresolved: the outcome-acceptance evidence is segment-specific at best.",
+      "limitations": "One customer interview per segment; the enterprise interviewee was a pilot participant (favourable selection). Neither interview constitutes validated willingness-to-pay research.",
+      "gaps": "No second customer voice in either segment; no evidence on how procurement outside the pilot accounts would respond to outcome measurement protocols.",
+      "claimCodesUsed": ["EV-11", "EV-13", "EV-17", "EV-18", "EV-19", "EV-20", "EV-21"]
+    },
+    {
+      "researchQuestionCode": "RQ-03",
+      "supportingSummary": "Two public benchmarks exist. SentinelIQ, a software-only vendor, lists £49 per connected machine per month (annual billing, minimum 20 machines) plus £350 installation, with no performance guarantees [EV-22]. MacroFleet, an equipment OEM, bundles monitoring at ~4% of equipment price per coverage year, sold only with new machines and with no published retrofit price [EV-23].",
+      "contrarySummary": "The only attach-rate and model-mix benchmark found is from 2019 (2018 survey data): 8% attach rates, per-machine dominant, outcome models 'largely experimental' [EV-24]. It predates the post-2020 industrial-IoT acceleration and is retained only as a weak lower bound — treating it as current would materially understate the opportunity and overstate outcome-model scepticism.",
+      "limitations": "List prices are not realised prices; SentinelIQ's volume-tier discounts are unknown from public sources (a non-public discount schedule exists but is quarantined and has not been used). Neither competitor bundles an OEM field-service response like PulseGuard, so comparability is partial.",
+      "gaps": "No benchmark for OEM retrofit services on an installed base — which is precisely NordMach's position; no current attach-rate data.",
+      "claimCodesUsed": ["EV-22", "EV-23", "EV-24"]
+    },
+    {
+      "researchQuestionCode": "RQ-04",
+      "supportingSummary": "The cost structure is documented: £380k/yr platform fixed cost, £6/machine/month variable, £900/machine onboarding, one £58k engineer per 200 connected machines [EV-06]. Finance requires contribution-positive within 18 months [EV-10, EV-03]. Service capacity of one engineer per ~200 machines forces phased onboarding [EV-16]. Per-machine billing is feasible today; outcome billing needs per-site measurement projects [EV-17]. The installed base of ~1,300 machines defines the adoption ceiling [EV-02].",
+      "contrarySummary": "Bundling conflicts with the organisation twice over: it removes the sales commission line and would reduce selling effort [EV-12], and it buries service margin inside the hardware line [EV-15]. Any performance-linked element must carry a cap, a floor and an agreed measurement protocol to be acceptable to Finance [EV-14].",
+      "limitations": "Cost figures are planning estimates at current scale; engineer cost may not scale linearly.",
+      "gaps": "No billing-system cost estimate for outcome measurement protocols; no evidence on onboarding-cost reduction at volume.",
+      "claimCodesUsed": ["EV-02", "EV-03", "EV-06", "EV-10", "EV-12", "EV-14", "EV-15", "EV-16", "EV-17"]
+    },
+    {
+      "researchQuestionCode": "RQ-05",
+      "supportingSummary": "This is a B2B advisory engagement with no consumer-pricing transparency duties identified and no regulated price controls in the sector. The material competition exposure is the handling of rival pricing intelligence: a non-public SentinelIQ discount schedule obtained from a former employee was uploaded and has been quarantined under the engagement's competition controls; it is unavailable to retrieval, strategy creation and recommendations pending documented specialist competition review.",
+      "contrarySummary": "No contrary claims were extracted for this question.",
+      "limitations": "This synthesis routes issues; it is not legal advice. The quarantine decision itself requires specialist competition review before any exceptional handling.",
+      "gaps": "Specialist competition review of the quarantined source is outstanding; contract-law review of outcome-measurement terms would be required before client-facing use.",
+      "claimCodesUsed": []
+    }
+  ]
+}

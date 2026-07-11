@@ -90,7 +90,7 @@ The simulation boundary must be disclosed.
 
 ## 5. Smallest viable interface
 
-Five connected work areas are sufficient:
+Four connected work areas are sufficient:
 
 ### A. Case and research
 
